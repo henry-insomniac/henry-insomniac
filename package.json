@@ -1,0 +1,9 @@
+{
+  "name": "henry-insomniac-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-profile-assets.mjs",
+    "test": "node --test"
+  }
+}

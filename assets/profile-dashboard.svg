@@ -1,0 +1,166 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">HenryHou GitHub profile dashboard</title>
+  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, builder signal ring, language distribution, recent work, and featured projects.</desc>
+  <rect width="1200" height="680" rx="0" fill="#0d1117"/>
+  <rect x="32" y="32" width="1136" height="616" rx="8" fill="#161b22" stroke="#30363d"/>
+
+  <g transform="translate(72 72)">
+    <text x="0" y="0" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">HenryHou / henry-insomniac</text>
+    <text x="0" y="38" fill="#58a6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600">Building agent-first personal software</text>
+    <text x="0" y="68" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Local AI runtimes · Knowledge systems · Native macOS/iOS tools · Developer workflow infrastructure</text>
+    <text x="0" y="101" fill="#3fb950" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">ChengDu · https://yi-flow.com</text>
+  </g>
+
+  <g transform="translate(72 210)">
+    <title>73 public repos</title>
+    <rect x="0" y="0" width="148" height="86" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="38" fill="#58a6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">73</text>
+    <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">public repos</text>
+  </g>
+  <g transform="translate(252 210)">
+    <title>38 original</title>
+    <rect x="0" y="0" width="148" height="86" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="38" fill="#3fb950" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">38</text>
+    <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">original</text>
+  </g>
+  <g transform="translate(432 210)">
+    <title>29 repo stars</title>
+    <rect x="0" y="0" width="148" height="86" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="38" fill="#d29922" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">29</text>
+    <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">repo stars</text>
+  </g>
+  <g transform="translate(612 210)">
+    <title>35 forks tracked</title>
+    <rect x="0" y="0" width="148" height="86" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="22" y="38" fill="#bc8cff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">35</text>
+    <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">forks tracked</text>
+  </g>
+
+  <g transform="translate(72 340)">
+    <rect x="0" y="0" width="416" height="248" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="28" y="40" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Builder Signal</text>
+    <text x="28" y="66" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Public GitHub signals, not a vanity score.</text>
+    <g transform="translate(42 92)">
+      <circle cx="72" cy="72" r="62" stroke="#30363d" stroke-width="10"/>
+      <circle cx="72" cy="72" r="48" stroke="#30363d" stroke-width="10"/>
+      <circle cx="72" cy="72" r="34" stroke="#30363d" stroke-width="10"/>
+      <circle cx="72" cy="72" r="20" stroke="#30363d" stroke-width="10"/>
+      <circle cx="72" cy="72" r="62" pathLength="100" stroke="#3fb950" stroke-width="10" stroke-linecap="round" stroke-dasharray="52 48" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="48" pathLength="100" stroke="#58a6ff" stroke-width="10" stroke-linecap="round" stroke-dasharray="18 82" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="34" pathLength="100" stroke="#bc8cff" stroke-width="10" stroke-linecap="round" stroke-dasharray="100 0" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="20" pathLength="100" stroke="#d29922" stroke-width="10" stroke-linecap="round" stroke-dasharray="97 3" stroke-dashoffset="25" transform="rotate(-90 72 72)"/>
+    </g>
+    <g transform="translate(206 86)">
+      <g transform="translate(0 0)">
+    <circle cx="6" cy="6" r="5" fill="#3fb950"/>
+    <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Originality</text>
+    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">52% · 38 original</text>
+  </g><g transform="translate(0 38)">
+    <circle cx="6" cy="6" r="5" fill="#58a6ff"/>
+    <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Momentum</text>
+    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">18% · 13 active in 90d</text>
+  </g><g transform="translate(0 76)">
+    <circle cx="6" cy="6" r="5" fill="#bc8cff"/>
+    <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Stack Breadth</text>
+    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">100% · 6 main stacks</text>
+  </g><g transform="translate(0 114)">
+    <circle cx="6" cy="6" r="5" fill="#d29922"/>
+    <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Product Shape</text>
+    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">97% · 37 public surfaces</text>
+  </g>
+    </g>
+  </g>
+
+  <g transform="translate(520 340)">
+    <rect x="0" y="0" width="280" height="248" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="40" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Language Map</text>
+    <text x="24" y="66" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Primary languages by public repo count.</text>
+    <g transform="translate(24 92)">
+      <g transform="translate(0 0)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">TypeScript</text>
+    <rect x="104" y="2" width="132" height="10" rx="5" fill="#1f2937"/>
+    <rect x="104" y="2" width="126" height="10" rx="5" fill="#58a6ff"/>
+    <text x="246" y="12" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">13</text>
+  </g><g transform="translate(0 24)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Go</text>
+    <rect x="104" y="2" width="132" height="10" rx="5" fill="#1f2937"/>
+    <rect x="104" y="2" width="78" height="10" rx="5" fill="#3fb950"/>
+    <text x="246" y="12" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">8</text>
+  </g><g transform="translate(0 48)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Python</text>
+    <rect x="104" y="2" width="132" height="10" rx="5" fill="#1f2937"/>
+    <rect x="104" y="2" width="39" height="10" rx="5" fill="#d29922"/>
+    <text x="246" y="12" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">4</text>
+  </g><g transform="translate(0 72)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">JavaScript</text>
+    <rect x="104" y="2" width="132" height="10" rx="5" fill="#1f2937"/>
+    <rect x="104" y="2" width="29" height="10" rx="5" fill="#bc8cff"/>
+    <text x="246" y="12" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">3</text>
+  </g><g transform="translate(0 96)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Swift</text>
+    <rect x="104" y="2" width="132" height="10" rx="5" fill="#1f2937"/>
+    <rect x="104" y="2" width="20" height="10" rx="5" fill="#39c5cf"/>
+    <text x="246" y="12" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">2</text>
+  </g><g transform="translate(0 120)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Vue</text>
+    <rect x="104" y="2" width="132" height="10" rx="5" fill="#1f2937"/>
+    <rect x="104" y="2" width="20" height="10" rx="5" fill="#f85149"/>
+    <text x="246" y="12" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">1</text>
+  </g>
+    </g>
+  </g>
+
+  <g transform="translate(832 72)">
+    <rect x="0" y="0" width="280" height="236" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="40" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Recent Work</text>
+    <text x="24" y="66" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Latest public pushes.</text>
+    <g transform="translate(24 94)">
+      <g transform="translate(0 0)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">project-dashboard-ui</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">TypeScript</text>
+  </g><g transform="translate(0 22)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">project-dashboard-server</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
+  </g><g transform="translate(0 44)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">insomniac-skills</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Python</text>
+  </g><g transform="translate(0 66)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">yi-flow-knowledge-base</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
+  </g><g transform="translate(0 88)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">dev-time</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">TypeScript</text>
+  </g><g transform="translate(0 110)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">dev-time-server</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
+  </g>
+    </g>
+  </g>
+
+  <g transform="translate(832 340)">
+    <rect x="0" y="0" width="280" height="248" rx="8" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="40" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Featured Projects</text>
+    <text x="24" y="66" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Highest-signal original repos.</text>
+    <g transform="translate(24 94)">
+      <g transform="translate(0 0)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">openclaw-manager-native</text>
+    <text x="232" y="12" text-anchor="end" fill="#d29922" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">7 stars</text>
+  </g><g transform="translate(0 26)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">mac-state</text>
+    <text x="232" y="12" text-anchor="end" fill="#d29922" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">3 stars</text>
+  </g><g transform="translate(0 52)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">Horizon-mcp</text>
+    <text x="232" y="12" text-anchor="end" fill="#d29922" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">3 stars</text>
+  </g><g transform="translate(0 78)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">token-manager-tools</text>
+    <text x="232" y="12" text-anchor="end" fill="#d29922" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">2 stars</text>
+  </g><g transform="translate(0 104)">
+    <text x="0" y="12" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600">x-list</text>
+    <text x="232" y="12" text-anchor="end" fill="#d29922" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">2 stars</text>
+  </g>
+    </g>
+  </g>
+</svg>
