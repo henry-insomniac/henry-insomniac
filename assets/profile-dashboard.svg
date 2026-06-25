@@ -1,6 +1,6 @@
 <svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">HenryHou GitHub profile dashboard</title>
-  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, builder signal ring, language distribution, recent work, and featured projects.</desc>
+  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, builder score, signal ring, language distribution, recent work, and featured projects.</desc>
   <rect width="1200" height="680" rx="0" fill="#0d1117"/>
   <rect x="32" y="32" width="1136" height="616" rx="8" fill="#161b22" stroke="#30363d"/>
 
@@ -30,16 +30,16 @@
     <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">repo stars</text>
   </g>
   <g transform="translate(612 210)">
-    <title>35 forks tracked</title>
+    <title>67/100 builder score</title>
     <rect x="0" y="0" width="148" height="86" rx="8" fill="#0d1117" stroke="#30363d"/>
-    <text x="22" y="38" fill="#bc8cff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">35</text>
-    <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">forks tracked</text>
+    <text x="22" y="38" fill="#bc8cff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">67/100</text>
+    <text x="22" y="62" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">builder score</text>
   </g>
 
   <g transform="translate(72 340)">
     <rect x="0" y="0" width="416" height="248" rx="8" fill="#0d1117" stroke="#30363d"/>
     <text x="28" y="40" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Builder Signal</text>
-    <text x="28" y="66" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Public GitHub signals, not a vanity score.</text>
+    <text x="28" y="66" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Average of 4 public GitHub signals.</text>
     <g transform="translate(42 92)">
       <circle cx="72" cy="72" r="62" stroke="#30363d" stroke-width="10"/>
       <circle cx="72" cy="72" r="48" stroke="#30363d" stroke-width="10"/>
@@ -114,12 +114,12 @@
     <g transform="translate(24 94)">
       <g transform="translate(0 0)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
-    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">yi-flow-knowledge-base</text>
-    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
-  </g><g transform="translate(0 22)">
-    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">henry-insomniac</text>
     <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">JavaScript</text>
+  </g><g transform="translate(0 22)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">yi-flow-knowledge-base</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
   </g><g transform="translate(0 44)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">project-dashboard-ui</text>

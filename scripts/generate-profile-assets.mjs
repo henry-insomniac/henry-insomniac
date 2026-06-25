@@ -125,6 +125,29 @@ function buildMetrics(user, repos) {
   const activeSince = Date.now() - 90 * 24 * 60 * 60 * 1000;
   const activeRecent = repos.filter((repo) => timestamp(repo.pushed_at ?? repo.updated_at) >= activeSince).length;
   const productized = originalRepos.filter((repo) => hasProductSignal(repo)).length;
+  const signals = [
+    {
+      label: "Originality",
+      value: percent(originalRepos.length, totalRepos),
+      detail: `${originalRepos.length} original`
+    },
+    {
+      label: "Momentum",
+      value: clamp(Math.round((activeRecent / Math.max(totalRepos, 1)) * 100), 8, 100),
+      detail: `${activeRecent} active in 90d`
+    },
+    {
+      label: "Stack Breadth",
+      value: clamp(languages.length * 18, 10, 100),
+      detail: `${languages.length} main stacks`
+    },
+    {
+      label: "Product Shape",
+      value: clamp(percent(productized, Math.max(originalRepos.length, 1)), 8, 100),
+      detail: `${productized} public surfaces`
+    }
+  ];
+  const score = Math.round(signals.reduce((sum, signal) => sum + signal.value, 0) / signals.length);
 
   return {
     user: {
@@ -139,28 +162,8 @@ function buildMetrics(user, repos) {
       forked: forkedRepos.length,
       totalStars
     },
-    signals: [
-      {
-        label: "Originality",
-        value: percent(originalRepos.length, totalRepos),
-        detail: `${originalRepos.length} original`
-      },
-      {
-        label: "Momentum",
-        value: clamp(Math.round((activeRecent / Math.max(totalRepos, 1)) * 100), 8, 100),
-        detail: `${activeRecent} active in 90d`
-      },
-      {
-        label: "Stack Breadth",
-        value: clamp(languages.length * 18, 10, 100),
-        detail: `${languages.length} main stacks`
-      },
-      {
-        label: "Product Shape",
-        value: clamp(percent(productized, Math.max(originalRepos.length, 1)), 8, 100),
-        detail: `${productized} public surfaces`
-      }
-    ],
+    score,
+    signals,
     languages,
     recentRepos,
     featuredRepos
@@ -194,7 +197,7 @@ function summarizeLanguages(repos) {
 }
 
 function renderDashboard(metrics) {
-  const { user, totals, signals, languages, recentRepos, featuredRepos } = metrics;
+  const { user, totals, score, signals, languages, recentRepos, featuredRepos } = metrics;
   const languageMax = Math.max(...languages.map((language) => language.count), 1);
   const languageRows = languages
     .map((language, index) => renderLanguageRow(language, index, languageMax))
@@ -206,7 +209,7 @@ function renderDashboard(metrics) {
 
   return `<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">HenryHou GitHub profile dashboard</title>
-  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, builder signal ring, language distribution, recent work, and featured projects.</desc>
+  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, builder score, signal ring, language distribution, recent work, and featured projects.</desc>
   <rect width="1200" height="680" rx="0" fill="${palette.bg}"/>
   <rect x="32" y="32" width="1136" height="616" rx="8" fill="${palette.panel}" stroke="${palette.line}"/>
 
@@ -220,12 +223,12 @@ function renderDashboard(metrics) {
   ${renderMetricCard(72, 210, `${totals.totalRepos}`, "public repos", palette.blue)}
   ${renderMetricCard(252, 210, `${totals.original}`, "original", palette.green)}
   ${renderMetricCard(432, 210, `${totals.totalStars}`, "repo stars", palette.yellow)}
-  ${renderMetricCard(612, 210, `${totals.forked}`, "forks tracked", palette.violet)}
+  ${renderMetricCard(612, 210, `${score}/100`, "builder score", palette.violet)}
 
   <g transform="translate(72 340)">
     <rect x="0" y="0" width="416" height="248" rx="8" fill="${palette.bg}" stroke="${palette.line}"/>
     <text x="28" y="40" fill="${palette.text}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Builder Signal</text>
-    <text x="28" y="66" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Public GitHub signals, not a vanity score.</text>
+    <text x="28" y="66" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Average of 4 public GitHub signals.</text>
     <g transform="translate(42 92)">
       <circle cx="72" cy="72" r="62" stroke="${palette.line}" stroke-width="10"/>
       <circle cx="72" cy="72" r="48" stroke="${palette.line}" stroke-width="10"/>
