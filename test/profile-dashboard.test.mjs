@@ -34,8 +34,8 @@ test("profile asset generator renders a data-driven SVG dashboard with a signal 
   assert.match(svg, /Builder Signal/);
   assert.match(svg, /8 public repos/);
   assert.match(svg, /6 original/);
-  assert.match(svg, /builder score/);
-  assert.match(svg, /\/100/);
+  assert.match(svg, /Profile Grade/);
+  assert.match(svg, /\/100 score/);
   assert.match(svg, /Originality/);
   assert.match(svg, /Momentum/);
   assert.match(svg, /Stack Breadth/);

@@ -148,6 +148,7 @@ function buildMetrics(user, repos) {
     }
   ];
   const score = Math.round(signals.reduce((sum, signal) => sum + signal.value, 0) / signals.length);
+  const grade = gradeFromScore(score);
 
   return {
     user: {
@@ -163,6 +164,7 @@ function buildMetrics(user, repos) {
       totalStars
     },
     score,
+    grade,
     signals,
     languages,
     recentRepos,
@@ -197,7 +199,7 @@ function summarizeLanguages(repos) {
 }
 
 function renderDashboard(metrics) {
-  const { user, totals, score, signals, languages, recentRepos, featuredRepos } = metrics;
+  const { user, totals, score, grade, signals, languages, recentRepos, featuredRepos } = metrics;
   const languageMax = Math.max(...languages.map((language) => language.count), 1);
   const languageRows = languages
     .map((language, index) => renderLanguageRow(language, index, languageMax))
@@ -209,7 +211,7 @@ function renderDashboard(metrics) {
 
   return `<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">HenryHou GitHub profile dashboard</title>
-  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, builder score, signal ring, language distribution, recent work, and featured projects.</desc>
+  <desc id="desc">A data-driven GitHub profile dashboard with repository metrics, profile grade, signal ring, language distribution, recent work, and featured projects.</desc>
   <rect width="1200" height="680" rx="0" fill="${palette.bg}"/>
   <rect x="32" y="32" width="1136" height="616" rx="8" fill="${palette.panel}" stroke="${palette.line}"/>
 
@@ -223,12 +225,12 @@ function renderDashboard(metrics) {
   ${renderMetricCard(72, 210, `${totals.totalRepos}`, "public repos", palette.blue)}
   ${renderMetricCard(252, 210, `${totals.original}`, "original", palette.green)}
   ${renderMetricCard(432, 210, `${totals.totalStars}`, "repo stars", palette.yellow)}
-  ${renderMetricCard(612, 210, `${score}/100`, "builder score", palette.violet)}
+  ${renderGradeCard(612, 210, grade, score)}
 
   <g transform="translate(72 340)">
     <rect x="0" y="0" width="416" height="248" rx="8" fill="${palette.bg}" stroke="${palette.line}"/>
     <text x="28" y="40" fill="${palette.text}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Builder Signal</text>
-    <text x="28" y="66" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Average of 4 public GitHub signals.</text>
+    <text x="28" y="66" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Grade is derived from 4 public GitHub signals.</text>
     <g transform="translate(42 92)">
       <circle cx="72" cy="72" r="62" stroke="${palette.line}" stroke-width="10"/>
       <circle cx="72" cy="72" r="48" stroke="${palette.line}" stroke-width="10"/>
@@ -276,6 +278,16 @@ function renderMetricCard(x, y, value, label, color) {
     <rect x="0" y="0" width="148" height="86" rx="8" fill="${palette.bg}" stroke="${palette.line}"/>
     <text x="22" y="38" fill="${color}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">${escapeXml(value)}</text>
     <text x="22" y="62" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">${escapeXml(label)}</text>
+  </g>`;
+}
+
+function renderGradeCard(x, y, grade, score) {
+  return `<g transform="translate(${x} ${y})">
+    <title>${escapeXml(grade)} profile grade (${score}/100)</title>
+    <rect x="0" y="0" width="148" height="86" rx="8" fill="${palette.bg}" stroke="${palette.line}"/>
+    <text x="22" y="38" fill="${palette.violet}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="800">${escapeXml(grade)}</text>
+    <text x="22" y="60" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">Profile Grade</text>
+    <text x="22" y="76" fill="${palette.muted}" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10">${score}/100 score</text>
   </g>`;
 }
 
@@ -348,6 +360,42 @@ function percent(value, total) {
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
+}
+
+function gradeFromScore(score) {
+  if (score >= 95) {
+    return "S";
+  }
+
+  if (score >= 90) {
+    return "A+";
+  }
+
+  if (score >= 80) {
+    return "A";
+  }
+
+  if (score >= 70) {
+    return "A-";
+  }
+
+  if (score >= 60) {
+    return "B+";
+  }
+
+  if (score >= 50) {
+    return "B";
+  }
+
+  if (score >= 40) {
+    return "B-";
+  }
+
+  if (score >= 30) {
+    return "C+";
+  }
+
+  return "C";
 }
 
 function numeric(value) {
