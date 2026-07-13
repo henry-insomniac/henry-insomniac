@@ -46,7 +46,7 @@
       <circle cx="72" cy="72" r="48" stroke="#30363d" stroke-width="10"/>
       <circle cx="72" cy="72" r="34" stroke="#30363d" stroke-width="10"/>
       <circle cx="72" cy="72" r="20" stroke="#30363d" stroke-width="10"/>
-      <circle cx="72" cy="72" r="62" pathLength="100" stroke="#3fb950" stroke-width="10" stroke-linecap="round" stroke-dasharray="52 48" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="48" pathLength="100" stroke="#58a6ff" stroke-width="10" stroke-linecap="round" stroke-dasharray="16 84" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="34" pathLength="100" stroke="#bc8cff" stroke-width="10" stroke-linecap="round" stroke-dasharray="100 0" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="20" pathLength="100" stroke="#d29922" stroke-width="10" stroke-linecap="round" stroke-dasharray="97 3" stroke-dashoffset="25" transform="rotate(-90 72 72)"/>
+      <circle cx="72" cy="72" r="62" pathLength="100" stroke="#3fb950" stroke-width="10" stroke-linecap="round" stroke-dasharray="52 48" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="48" pathLength="100" stroke="#58a6ff" stroke-width="10" stroke-linecap="round" stroke-dasharray="15 85" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="34" pathLength="100" stroke="#bc8cff" stroke-width="10" stroke-linecap="round" stroke-dasharray="100 0" stroke-dashoffset="25" transform="rotate(-90 72 72)"/><circle cx="72" cy="72" r="20" pathLength="100" stroke="#d29922" stroke-width="10" stroke-linecap="round" stroke-dasharray="97 3" stroke-dashoffset="25" transform="rotate(-90 72 72)"/>
     </g>
     <g transform="translate(206 86)">
       <g transform="translate(0 0)">
@@ -56,7 +56,7 @@
   </g><g transform="translate(0 38)">
     <circle cx="6" cy="6" r="5" fill="#58a6ff"/>
     <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Momentum</text>
-    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">16% · 12 active in 90d</text>
+    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">15% · 11 active in 90d</text>
   </g><g transform="translate(0 76)">
     <circle cx="6" cy="6" r="5" fill="#bc8cff"/>
     <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Stack Breadth</text>
