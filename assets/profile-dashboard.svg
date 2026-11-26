@@ -56,7 +56,7 @@
   </g><g transform="translate(0 38)">
     <circle cx="6" cy="6" r="5" fill="#58a6ff"/>
     <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Momentum</text>
-    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">8% · 3 active in 90d</text>
+    <text x="20" y="27" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">8% · 4 active in 90d</text>
   </g><g transform="translate(0 76)">
     <circle cx="6" cy="6" r="5" fill="#bc8cff"/>
     <text x="20" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Stack Breadth</text>
@@ -115,28 +115,28 @@
     <g transform="translate(24 94)">
       <g transform="translate(0 0)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
+    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">insomniac-skills</text>
+    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Python</text>
+  </g><g transform="translate(0 22)">
+    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">henry-insomniac</text>
     <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">JavaScript</text>
-  </g><g transform="translate(0 22)">
+  </g><g transform="translate(0 44)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">todo-md</text>
     <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">HTML</text>
-  </g><g transform="translate(0 44)">
+  </g><g transform="translate(0 66)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">mac-state</text>
     <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Swift</text>
-  </g><g transform="translate(0 66)">
+  </g><g transform="translate(0 88)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">pdf2Epub</text>
     <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
-  </g><g transform="translate(0 88)">
+  </g><g transform="translate(0 110)">
     <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
     <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">github-mcp-server</text>
     <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Go</text>
-  </g><g transform="translate(0 110)">
-    <circle cx="5" cy="6" r="4" fill="#58a6ff"/>
-    <text x="18" y="10" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">postgres-skills</text>
-    <text x="232" y="10" text-anchor="end" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">Docs</text>
   </g>
     </g>
   </g>
